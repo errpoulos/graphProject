@@ -1,6 +1,7 @@
 public class Job {
 
-    public Job(int qualificationScore) {
+    //constructor
+    public Job() {
     }
 
 
