@@ -5,7 +5,7 @@ class Graph {
     int Vertex;
     LinkedList<Integer> adjListArray[];
 
-    //constructor Hi Devon!
+    //constructor Hi Eli!
     Graph(int Vertex) {
         this.Vertex = Vertex;
         adjListArray = new LinkedList[Vertex];

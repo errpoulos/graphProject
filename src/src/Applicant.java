@@ -4,6 +4,8 @@ public class Applicant {
     public int qualificationScore;
 
 
+    public String Name;
+    public int qualificationScore;
     //constructor
     public Applicant() {
      }
