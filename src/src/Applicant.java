@@ -1,10 +1,7 @@
 public class Applicant {
 
-    public String Name;
-    public int qualificationScore;
+    public String name;
 
-
-    public String Name;
     public int qualificationScore;
     //constructor
     public Applicant() {
@@ -12,10 +9,10 @@ public class Applicant {
 
 
     public String getName() {
-        return Name;
+        return name;
     }
 
     public void setName(String name) {
-        Name = this.Name;
+        name = this.name;
     }
 }
