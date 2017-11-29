@@ -5,7 +5,7 @@ class Graph {
     int Vertex;
     LinkedList<Integer> adjListArray[];
 
-    //constructor
+    //constructor Hi Devon!
     Graph(int Vertex) {
         this.Vertex = Vertex;
         adjListArray = new LinkedList[Vertex];
@@ -20,6 +20,7 @@ class Graph {
      * @param src
      * @param dest
      */
+
     static void addEdge(Graph graph, int src, int dest) {
         graph.adjListArray[src].addFirst(dest);
         graph.adjListArray[dest].addFirst(src);
