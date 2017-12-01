@@ -79,7 +79,7 @@ public class Vertex {
 
     /**
      * @param other The other object to compare to.
-     * @return true only iff other instance of Vertex and the two Vertex
+     * @return true only if  other instance of Vertex and the two Vertex
      * objects have the same label.
      */
     public boolean equals(Object other) {

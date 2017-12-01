@@ -8,7 +8,7 @@ public class Edge implements Comparable<Edge> {
      *           Note that the default weight is 1.
      */
     public Edge(Vertex v1, Vertex v2) {
-        this(v1, v2, 1);
+        this(v1, v2, -1);
     }
 
     public Edge(Vertex v1, Vertex v2, int weight) {
@@ -81,7 +81,7 @@ public class Edge implements Comparable<Edge> {
     }
 
     /**
-     * 
+     *
      * @param other the Object to compare against
      * @return True only if other is an Edge with the same Vertices as this.
      */
