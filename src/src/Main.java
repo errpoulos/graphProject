@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.Set;
-
+// project by Eli Poulos/ Sahil Dhawan, Devon Suskhauer, Sam Burke aka team lolwut.
 public class Main {
 
     public static void main(String args[]) {
