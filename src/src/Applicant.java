@@ -1,12 +1,12 @@
 public class Applicant extends Vertex {
     private String name;
-    private Edge qualificationScore;
+    private int qualificationScore;
 
     /**
      * @param name The Unique label for this vertex.
      * @param qualificationScore
      */
-    public Applicant(String name, Edge qualificationScore) {
+    public Applicant(String name, int qualificationScore) {
         super(name);
         this.name = name;
         this.qualificationScore = qualificationScore;
@@ -22,11 +22,11 @@ public class Applicant extends Vertex {
         this.name = name;
     }
 
-    public Edge getQualificationScore() {
+    public int getQualificationScore() {
         return qualificationScore;
     }
 
-    public void setQualificationScore(Edge qualificationScore) {
+    public void setQualificationScore(int qualificationScore) {
         this.qualificationScore = qualificationScore;
     }
 

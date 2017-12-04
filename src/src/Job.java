@@ -1,7 +1,7 @@
 public class Job extends Vertex {
 
     public String title;
-    public int qualificationRequirement;
+
 
     public Job(String label) {
         super(label);
@@ -11,15 +11,14 @@ public class Job extends Vertex {
         return title;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setTitle(String label) {
+        this.title = label;
     }
 
     @Override
     public String toString() {
         return "Job{" +
-                "title='" + title + '\'' +
-                ", qualificationRequirement=" + qualificationRequirement +
+                "title='" + getLabel() + '\'' +
                 '}';
     }
 }
